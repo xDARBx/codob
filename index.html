@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./android-chrome-512x512.png">
+    <link rel="manifest" href="./site.webmanifest">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+    <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#inicio">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#historia">Historia</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#discos">Discos</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#tour">Tour</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#merch">Merch</a>
+          </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#contacto" tabindex="-1" aria-disabled="true">Contacto</a>
+        </li>
+      </ul>
+    </nav>
+
+    <header>
+        <iframe id="video" width="100%" height="350" src="https://www.youtube.com/embed/8t53mOoz8TE?start=12"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+        </iframe>
+    </header>
+
+
+    <main>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card">
+                <img src="http://via.placeholder.com/100x100" class="img-thumbnail" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Impera</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="http://via.placeholder.com/100x100" class="img-thumbnail" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="http://via.placeholder.com/100x100" class="img-thumbnail" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                </div>
+              </div>
+            </div>
+            <div class="card1">
+                <div class="face face1">
+                    <div class="content">
+                        <img src="./impera.jpg">
+                        <h3>Impera</h3>
+                    </div>
+                </div>
+                <div class="face face2">
+                    <div class="content">
+                        <p>New Album!
+                        </p>
+                        <a href="#miModal">CHECK!</a>
+                        <div id="miModal" class="modal">
+                            <div class="modal-contenido">
+                                <a href="#portfolio">X</a>
+                                <iframe style="border-radius:20px"
+                                    src="https://open.spotify.com/embed/album/3fn4HfVz5dhmE0PG24rh6h?utm_source=generator&theme=0"
+                                    width="100%" height="380" frameBorder="0" allowfullscreen=""
+                                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </main>
+
+</body>
+</html>
