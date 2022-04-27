@@ -59,6 +59,7 @@ li a {
 
 .img-thumbnail {
     background-color: var(--lila);
+    width: 100%;
 }
 
 .card-body{ 
